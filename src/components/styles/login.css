@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+.login__formulario{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba( 16, 137, 255, 0.5); 
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+.login__formulario-title{
+    color: white;
+    font-weight: bold;
+}
+.login__formulario-input{
+    width: 70%;
+    margin: 15px 0;
+    border-radius: 25px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    padding: 10px;
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.login__formulario-submit{
+    width: 40%;
+    margin: 15px 0;
+    border-radius: 25px;
+    height: 40px;
+    background-color: #23374d;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    outline: none;
+}
